@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap");
+
+:root {
+  --dark-red: #fa3e2b;
+  --bright-red: #d42d2f;
+  --dark-green: #344d2f;
+  --light-green: #77a047;
+  --green: #217856;
+  --gold: #f7c57d;
+  --snow: #fff7d3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: var(--snow);
+  font-family: "Mountains of Christmas", serif;
+
+  background-image: url("chandlervid85-image-freepik.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  background: var(--green);
+  color: var(--snow);
+  padding: 1em 2em;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.countdown-display {
+  font-size: 1.8rem;
+  margin: 0.9em 0;
+}
+
+.countdown-text {
+  font-size: 1.8rem;
+  margin: 0 0 0.8em 0;
+}
+
+.day-display {
+  font-size: 3rem;
+  margin: 0.5em 0;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 70%;
+    padding: 4em 8em;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .countdown-display {
+    font-size: 3.5rem;
+    margin: 0.9em 0;
+  }
+
+  .countdown-text {
+    font-size: 3.5rem;
+  }
+
+  .day-display {
+    font-size: 5rem;
+  }
+}

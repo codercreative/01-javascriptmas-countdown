@@ -2,4 +2,4 @@
 
 ### The requirements:
 
-![screenshot](task.png)
+![screenshot](countdown.png)
